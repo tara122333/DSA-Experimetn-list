@@ -69,7 +69,7 @@ int main()
     return 0;
 }
 int isFull(queue*q){
-    if((q->rear == MAX-1 && q->front ==0)||q->front==q->rear+1){
+    if((q->rear == MAX-1 && q->front ==0)||(q->front==q->rear+1)){
         return 1;
     }
     return 0;
